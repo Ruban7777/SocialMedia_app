@@ -34,58 +34,8 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/your-username/social-media-project.git
-Navigate to the project directory:
 
-bash
-Copy code
-cd social-media-project
-Install dependencies:
 
-bash
-Copy code
-npm install
-or with Yarn:
-
-bash
-Copy code
-yarn install
-Running the Development Server
-To start the development server:
-
-bash
-Copy code
-npm run dev
-or with Yarn:
-
-bash
-Copy code
-yarn dev
-Open your browser and navigate to http://localhost:3000 to see the application in action.
-
-Building for Production
-To create an optimized production build:
-
-bash
-Copy code
-npm run build
-or with Yarn:
-
-bash
-Copy code
-yarn build
-The build artifacts will be in the dist folder.
-
-Running Tests
-To run tests (if any):
-
-bash
-Copy code
-npm test
-or with Yarn:
-
-bash
-Copy code
-yarn test
 📖 Usage
 Creating a Post
 Enter the UserID.
@@ -100,26 +50,6 @@ The post will be removed from the list.
 🤝 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
-
-Create a new branch:
-
-bash
-Copy code
-git checkout -b feature/YourFeature
-Commit your changes:
-
-bash
-Copy code
-git commit -m 'Add YourFeature'
-Push to the branch:
-
-bash
-Copy code
-git push origin feature/YourFeature
-Open a pull request.
-
-Please ensure your code follows the project's coding standards and includes tests for new features.
 
 📝 License
 This project is licensed under the MIT License. See the LICENSE file for details.
