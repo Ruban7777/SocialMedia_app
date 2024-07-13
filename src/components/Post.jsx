@@ -13,6 +13,7 @@ const Post = ({ post }) => {
           <span
             className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
             onClick={() => deletePost(post.id)}
+            style={{ cursor: "pointer" }}
           >
             <MdDelete />
           </span>
@@ -24,7 +25,8 @@ const Post = ({ post }) => {
           </span>
         ))}
         <div className="alert alert-success reactions" role="alert">
-          This post has been reacted by {post.reactions}
+          This post has {post.reactions.likes} likes and{" "}
+          {post.reactions.dislikes} dislikes.
         </div>
       </div>
     </div>
